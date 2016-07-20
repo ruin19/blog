@@ -8,11 +8,6 @@ pulished: true
 excerpt_separator: "```"
 ---
 
-2016年上半年，Qzone开始进军视频直播领域，依托腾讯云[互动直播](https://www.qcloud.com/doc/product/268/3158)的强大基础能力，迅速实现了从无到有的突破，并且在体验、性能方面不断优化，做到业界领先。
-
-## Qzone直播剥离IMSDK实践
------
-
 2016年上半年，Qzone开始进军视频直播领域，依托腾讯云[互动直播](https://www.qcloud.com/doc/product/268/3158)的强大基础能力，迅速实现了从无到有的突破，并且在体验、性能方面不断优化，做到业界领先。  
 接入互动直播主要包含QAVSDK和IMSDK。前者提供音视频上下行能力，包大小4MB，后者提供聊天和信令通道的能力，包大小8MB。Qzone出于减包压力，需要剥离IMSDK，采用替代方案实现原IMSDK提供的能力。  
 互动直播对IMSDK的依赖分三大块：
